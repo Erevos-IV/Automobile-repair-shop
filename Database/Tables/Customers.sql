@@ -1,0 +1,8 @@
+CREATE TABLE Customers(
+	CustomerID INT NOT NULL AUTO_INCREMENT,
+    FullName VARCHAR(100) NOT NULL,
+    MobileNumber BIGINT NOT NULL,
+    City VARCHAR(50) NOT NULL,
+    
+    PRIMARY KEY(CustomerID)
+); 
